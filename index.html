@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Placeholder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section>
+        <h1>Image Placeholder Generator</h1>
+
+        <div>
+            <label for="selectImage">Image Size : </label>
+            <select name="" id="selectImage">
+                <option value="100x50">Small (100x50)</option>
+                <option value="200x200">Medium Square (200x200)</option>
+                <option value="350x150">Medium (350x150)</option>
+                <option value="400x400">Large Square (400x400)</option>
+                <option value="650x350">Large (650x350)</option>
+                <option value="800x600">X-Large (800x600)</option>
+            </select>
+        </div>
+
+        <div class="parent">
+            <label for="nameOnImage">Text on Image : </label>
+            <input type="text" id="nameOnImage">
+        </div>
+
+        <div class="parent">
+            <label for="backgroundColor">Color of Background : </label>
+            <input type="color" id="backgroundColor" value="#98bc62" class="style1">
+        </div>
+
+        <div class="parent">
+            <label for="textColor">Color of Text : </label>
+            <input type="color" id="textColor" class="style1" value="#2C5F2D">
+        </div>
+
+        <div class="conatiner">
+            <img src=" " alt="">
+            <br>
+            <textarea name="" id="urlPath" cols="20" rows="2">Link will be availabel here...</textarea>
+        </div>
+
+    </section>
+
+    <section class="empty">
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
